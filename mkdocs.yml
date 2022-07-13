@@ -1,0 +1,21 @@
+site_name: Mediaflux-backed public data release template
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  icon:
+    logo: material/database-arrow-down-outline
+plugins: []
+
+# uncomment and modify this if you would like to include a link to a relevant github repo
+# repo_url: https://github.com/unimelbmdap/mediaflux-data_release
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
